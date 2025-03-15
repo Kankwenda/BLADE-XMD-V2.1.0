@@ -1,9 +1,9 @@
 {
-  "name":"𝐀𝐍𝐘𝐖𝐀𝐘-𝐗𝐌𝐃",
+  "name":"𝐌𝐑 𝐁𝐋𝐀𝐃𝐄-𝐗𝐌𝐃",
   "description":"Best whatsapp bot developed by mr anyway ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/1hthvy.jpeg",
-  "repository":"https://github.com/anywaytech2/ANYWAY-MD-V1",
+  "repository":"https://github.com/Bladehack1/BLADE-XMD-V2.1",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -41,7 +41,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"-𝐀𝐍𝐘𝐖𝐀𝐘-𝐗𝐌𝐃",
+      "value":"-𝐌𝐑 𝐁𝐋𝐀𝐃𝐄-𝐗𝐌𝐃",
       "required":false
 
     } ,
@@ -80,14 +80,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "MR ANYWAY"
+    "value": "MR 𝐁𝐋𝐀𝐃𝐄"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255678892xxx"
+    "value": "2438294656×××"
   },
     "WARN_COUNT":
   {
