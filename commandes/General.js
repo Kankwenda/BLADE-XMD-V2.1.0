@@ -55,13 +55,13 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "🚘" }, async (dest, zk
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Anyway", numero: "255678892560" },
+      { nom: "Blade", numero: "243900365665" },
       { nom: "᚛Ibrahim᚜", numero: "254710772666" },
       { nom: "Baraka", numero: "255762190568" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "WELCOME TO ANYWAY-MD-V1 HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
+    let message = "WELCOME TO MR BLADE-MD-V2 HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -95,7 +95,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING ANYWAY-MD-V1, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VagWQ255q08VTCRQKP09] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/C7tunMI1UjV3mRcdR9Evgz] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://youtube.com/@anyway-tech?si=78wMeIxSS1_6X5hH] \n\n\n*Created By Mr anyway") 
-  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING ANYWAY-MD-V1,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
+  repondre("THANK YOU FOR CHOOSING BLADE-MD-V2, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029Vb3h64f1NCrMBksGl826] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/FShzPptBAEBG0WO4CRE53B] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://youtube.com/@anyway-tech?si=78wMeIxSS1_6X5hH] \n\n\n*Created By Mr Blade) 
+  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING BLADE-MD-V3,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
