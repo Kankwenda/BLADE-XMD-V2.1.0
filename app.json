@@ -2,7 +2,7 @@
   "name":"𝐌𝐑 𝐁𝐋𝐀𝐃𝐄-𝐗𝐌𝐃",
   "description":"Best whatsapp bot developed by mr blade ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/1hthvy.jpeg",
+  "logo":"https://files.catbox.moe/4i664a.jpg",
   "repository":"https://github.com/Bladehack1/BLADE-XMD-V2.1",
   "succes_url":"/",
   "stack":"container",
@@ -48,7 +48,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/1hthvy.jpeg",
+      "value":"https://files.catbox.moe/4i664a.jpg",
       "required":false
        
      },
@@ -85,7 +85,7 @@
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
+    "desc": "Your number , dont put '+' and put you area code(exemple of drc '243')",
     "required":false,
     "value": "2438294656×××"
   },
