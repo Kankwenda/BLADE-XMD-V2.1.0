@@ -18,7 +18,7 @@ zokou({
     return respond("Please specify the chapter number or name. Example: timothy john 3:16");
   }
   let data = await response.json();
-  let replyText = "📖 *THE HOLY BIBLE*\n\n📜 *_WE'RE READING:_* " + data.reference + "\n\n🔢 *_NUMBER OF VERSES:_* " + data.verses.length + "\n\n🤍 *_NOW READ:_* " + data.text + "\n\n🌍 *_LANGUAGE_:* " + data.translation_name + "\n\n\n╭────────────────◆\n│ *_𝐀𝐍𝐘𝐖𝐀𝐘 𝐗𝐌𝐃 Scripture._*\n╰─────────────────◆";
+  let replyText = "📖 *THE HOLY BIBLE*\n\n📜 *_WE'RE READING:_* " + data.reference + "\n\n🔢 *_NUMBER OF VERSES:_* " + data.verses.length + "\n\n🤍 *_NOW READ:_* " + data.text + "\n\n🌍 *_LANGUAGE_:* " + data.translation_name + "\n\n\n╭────────────────◆\n│ *_𝐁𝐋𝐀𝐃𝐄 𝐗𝐌𝐃 Scripture._*\n╰─────────────────◆";
   await respond(replyText);
 });
 
@@ -64,7 +64,7 @@ zokou({
   const { repondre: respond, arg: arguments, ms: metadata } = args;
   const quoteResponse = await fetch("https://favqs.com/api/qotd");
   const quoteData = await quoteResponse.json();
-  const quoteMessage = "\n◆━━━━━━✦QUOTE✦━━━━━━◆ \n◇ _" + quoteData.quote.body + "_\n\n\n◇ *AUTHOR:* " + quoteData.quote.author + "\n\n\n\n\n◇ _Engine by:_ *Njabulo Jb*\n\n\n╔═════◇\n║◇ *Free Space 𝐀𝐍𝐘𝐖𝐀𝐘 𝐗𝐌𝐃*\n╚════════════════════> ";
+  const quoteMessage = "\n◆━━━━━━✦QUOTE✦━━━━━━◆ \n◇ _" + quoteData.quote.body + "_\n\n\n◇ *AUTHOR:* " + quoteData.quote.author + "\n\n\n\n\n◇ _Engine by:_ *Njabulo Jb*\n\n\n╔═════◇\n║◇ *Free Space 𝐁𝐋𝐀𝐃𝐄 𝐗𝐌𝐃*\n╚════════════════════> ";
   respond(quoteMessage);
 });
 
