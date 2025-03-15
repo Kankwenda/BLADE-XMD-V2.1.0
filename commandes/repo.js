@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-      *𝐀𝐍𝐘𝐖𝐀𝐘-𝐗𝐌𝐃 IMPORTANT INFO* 
+      *𝐁𝐋𝐀𝐃𝐄-𝐗𝐌𝐃 IMPORTANT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
 > https://github.com/anywaytech2/ANYWAY-MD-V1
@@ -45,12 +45,12 @@ const date = moment().format('DD/MM/YYYY');
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │❒⁠⁠⁠⁠ *DEV1* : *Mr anyway*
-│❒⁠⁠⁠⁠ *DEV2* : *anywaytech*
+│❒⁠⁠⁠⁠ *DEV2* : *bladetech*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-     *𝘼𝙉𝙔𝙒𝘼𝙔 𝙏𝙀𝘾𝙃*
+     *𝑩𝑳𝑨𝑫𝑬 𝙏𝙀𝘾𝙃*
 
 ❒────────────────────❒`;
 
