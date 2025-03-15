@@ -53,7 +53,7 @@ zokou({
   const { repondre: respond, arg: arguments, ms: metadata } = args;
   const factResponse = await fetch("https://nekos.life/api/v2/fact");
   const factData = await factResponse.json();
-  respond("◆━━━━━━✦FACT✦━━━━━━◆ \n*◇* " + factData.fact + "\n\n\n\n\n*◇*Njabulo*JB*\n\n╔═════◇\n║◇ *Free Zone 𝐀𝐍𝐘𝐖𝐀𝐘 𝐗𝐌𝐃*\n╚════════════════════> ");
+  respond("◆━━━━━━✦FACT✦━━━━━━◆ \n*◇* " + factData.fact + "\n\n\n\n\n*◇*Njabulo*JB*\n\n╔═════◇\n║◇ *Free Zone BLADE XMD*\n╚════════════════════> ");
 });
 
 zokou({
@@ -104,7 +104,7 @@ zokou({
     const lyrics = await firstSong.lyrics();
     const artist = await firstSong.artist.name;
     const title = await firstSong.title;
-    const lyricsMessage = "*𝐀𝐍𝐘𝐖𝐀𝐘 𝐗𝐌𝐃 LYRICS FINDER*\n\n*TITLE* - " + title + "\n\n*ARTIST* - " + artist + "\n\n" + lyrics;
+    const lyricsMessage = "*BLADE XMD LYRICS FINDER*\n\n*TITLE* - " + title + "\n\n*ARTIST* - " + artist + "\n\n" + lyrics;
     await sender.sendMessage(message, {
       'image': {
         'url': "./media/lyrics.jpg"
