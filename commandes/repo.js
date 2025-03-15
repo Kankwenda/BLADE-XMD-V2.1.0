@@ -37,20 +37,20 @@ const date = moment().format('DD/MM/YYYY');
       *𝐁𝐋𝐀𝐃𝐄-𝐗𝐌𝐃 IMPORTANT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
-> https://github.com/anywaytech2/ANYWAY-MD-V1
+> https://github.com/Bladehack1/BLADE-XMD-V2.1.0
 
 *WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029VagWQ255q08VTCRQKP09
+> https://whatsapp.com/channel/0029Vb3h64f1NCrMBksGl826
 ⁠
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV1* : *Mr anyway*
-│❒⁠⁠⁠⁠ *DEV2* : *bladetech*
+│❒⁠⁠⁠⁠ *DEV1* : *Mr blade*
+│❒⁠⁠⁠⁠ *DEV2* : *Blade tech*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-     *𝑩𝑳𝑨𝑫𝑬 𝙏𝙀𝘾𝙃*
+     *𝐁𝐋𝐀𝐃𝐄 𝐓𝐄𝐂𝐇 *
 
 ❒────────────────────❒`;
 
