@@ -57,7 +57,7 @@ const date = moment().format('DD/MM/YYYY');
 // Checking for .jpeg or .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption: alivemsg }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: https://files.catbox.moe/k5p9s1.webp }, caption: alivemsg }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
