@@ -96,7 +96,7 @@ zokou({
 ┊ *Quality:* High
 ┊ *Powered:* by Blade
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
+🌐 *Bot Repo:* https://github.com/Bladehack1/BLADE-XMD-V2.1.0
 
 > regards frediezra`,
         audio: { url: downloadUrl },
@@ -144,7 +144,7 @@ zokou({
 ┊ *Quality:* High
 ┊ *Powered:* by Blade
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
+🌐 *Bot Repo:* https://github.com/Bladehack1/BLADE-XMD-V2.1.0
 
 > regards blade xmd`,
         document: { url: downloadUrl },
@@ -245,7 +245,7 @@ zokou({
 ┊ *Quality:* High
 ┊ *Powered:* by blade
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
+🌐 *Bot Repo:* https://github.com/Bladehack1/BLADE-XMD-V2.1.0
 
 > regards frediezra`,
         video: { url: downloadUrl },
@@ -269,7 +269,7 @@ zokou({
 ┊ *Quality:* High
 ┊ *Powered:* by Blade
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
+🌐 *Bot Repo:* https://github.com/Bladehack1/BLADE-XMD-V2.1.0
 
 > regards Blade xmd`,
         document: { url: downloadUrl },
