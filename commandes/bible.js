@@ -53,7 +53,7 @@ zokou({
   const { repondre: respond, arg: arguments, ms: metadata } = args;
   const factResponse = await fetch("https://nekos.life/api/v2/fact");
   const factData = await factResponse.json();
-  respond("◆━━━━━━✦FACT✦━━━━━━◆ \n*◇* " + factData.fact + "\n\n\n\n\n*◇*Njabulo*JB*\n\n╔═════◇\n║◇ *Free Zone BLADE XMD*\n╚════════════════════> ");
+  respond("◆━━━━━━✦FACT✦━━━━━━◆ \n*◇* " + factData.fact + "\n\n\n\n\n*◇*BLADE*XMD*\n\n╔═════◇\n║◇ *Free Zone BLADE XMD*\n╚════════════════════> ");
 });
 
 zokou({
