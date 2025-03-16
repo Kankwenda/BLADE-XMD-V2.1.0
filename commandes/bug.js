@@ -7,7 +7,6 @@ const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const Taphere = more.repeat(4001)
-
 zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
@@ -17,17 +16,12 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
     if ((s.MODE).toLocaleLowerCase() != "yes") {
         mode = "private";
     }
-
-
-    
-
-    cm.map(async (com, index) => {
+ cm.map(async (com, index) => {
         if (!coms[com.categorie])
             coms[com.categorie] = [];
         coms[com.categorie].push(com.nomCom);
     });
-
-    moment.cd.setDefault("Africa/congo drc");
+ moment.cd.setDefault("Africa/congo drc");
 
 // Créer une date et une heure en GMT
 const temps = moment().format('HH:mm:ss');
