@@ -72,7 +72,7 @@ zokou({ nomCom: "link", categorie: 'Group', reaction: "🙋" }, async (dest, zk,
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  anyway team`
+Grp link :${lien} \n\n★𝙿owered 𝚋𝚢  blade team`
   repondre(mess)
 
 
@@ -340,8 +340,7 @@ zokou({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions) 
 
     /*console.log(metadata.id + ", title: " + metadata.subject + ", description: " + metadata.desc)*/
 
-
-    let mess = {
+     let mess = {
       image: { url: ppgroup },
       caption:  `*━━━━『Group Info』━━━━*\n\n*🎐Name:* ${info.subject}\n\n*🔩Group's ID:* ${dest}\n\n*🔍Desc:* \n\n${info.desc}`
     }
@@ -350,8 +349,6 @@ zokou({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions) 
     zk.sendMessage(dest, mess, { quoted: ms })
   });
 
-
-
  //------------------------------------antilien-------------------------------
 
  zokou({ nomCom: "antilink", categorie: 'Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
@@ -359,9 +356,7 @@ zokou({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions) 
 
   var { repondre, arg, verifGroupe, superUser, verifAdmin } = commandeOptions;
   
-
-  
-  if (!verifGroupe) {
+    if (!verifGroupe) {
     return repondre("*for groups only*");
   }
   
@@ -660,7 +655,7 @@ zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,command
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'Bmw-mdtag',
+          pack: 'blade-mdtag',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
