@@ -37,7 +37,7 @@ function _0x4925() {
         'tion',
         'RQOlG',
         'SdpVK',
-        'f\x20ANYWAY-M',
+        'f\x20BLADE-M',
         'tEboL',
         'oyZkt',
         'mHbij',
@@ -47,7 +47,7 @@ function _0x4925() {
         'length',
         '\x20second',
         'QmFeS',
-        'y\x20ANYWAY-MD',
+        'y\x20BLADE-MD',
         'link...',
         '6108JYdMzG',
         '4|5|0|1|9|',
@@ -219,7 +219,7 @@ const {zokou} = require(_0x65381a(0x115) + _0x65381a(0x114)), moment = require(_
         }
     };
 let timestamp = speed(), flashspeed = (speed() - timestamp)[_0x65381a(0x105)](0x1c9 * -0xd + -0x49 * 0x2b + -0x3 * -0xbd4);
-zokou({
+blade({
     'nomCom': _0x65381a(0x101),
     'desc': _0x65381a(0x102) + _0x65381a(0xc7),
     'Categorie': _0x65381a(0xf3),
