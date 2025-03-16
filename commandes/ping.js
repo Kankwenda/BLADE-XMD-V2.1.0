@@ -7,7 +7,7 @@ zokou(
   async (dest, zk, commandeOptions) => {
     console.log("Ping command triggered!");
 
-    let captionText = '*🤖 Bot is online 🤖 🙏 \n\n𝐀𝐍𝐘𝐖𝐀𝐘-𝐌𝐃\n\n𝛥𝐷𝐷 𝛭𝛩𝑅𝛯 𝑆𝑇𝛥𝑇𝑈𝑆 😉';
+    let captionText = '*🤖 Bot is online 🤖 🙏 \n\nBLADE-XMD\n\n𝛥𝐷𝐷 𝛭𝛩𝑅𝛯 𝑆𝑇𝛥𝑇𝑈𝑆 😉';
 
     let videoUrl = "https://files.catbox.moe/jq3oin.mp4";
     let audioUrl = "https://files.catbox.moe/e52xx6.mp3";
